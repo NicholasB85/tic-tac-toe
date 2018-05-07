@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+table, tr, td {
+     border: 10px solid black;
+     border-radius: 15px;
+    border-collapse: collapse;
+    border-style: ridge;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 60px;
+    color:black;
+}
+
+#message {
+    text-align: center;
+    font-size: 25px;
+}
+
+.myDiv {
+    text-align: center;
+}
+
+button {
+    background-color: lightseagreen;
+}

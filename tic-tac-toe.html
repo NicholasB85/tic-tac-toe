@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic-Tac-Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body onload="startGame();">
+    <h1>This is my first tic-tac-toe game!</h1>
+
+    <hr>
+
+    <div id="message">Messages will go here</div>
+
+    <table class="center">
+        <tr>
+            <td id="b1" class="square" onclick="nextMove(this);"></td>
+            <td id="b2" class="square" onclick="nextMove(this);"></td>
+            <td id="b3" class="square" onclick="nextMove(this);"></td>  
+        </tr>
+
+        <tr>
+            <td id="b4" class="square" onclick="nextMove(this);"></td>
+            <td id="b5" class="square" onclick="nextMove(this);"></td>
+            <td id="b6" class="square" onclick="nextMove(this);"></td>
+        </tr>
+
+        <tr>
+            <td id="b7" class="square" onclick="nextMove(this);"></td>
+            <td id="b8" class="square" onclick="nextMove(this);"></td>
+            <td id="b9" class="square" onclick="nextMove(this);"></td>
+        </tr>
+    </table>
+    <Div class="myDiv">
+    <a id="My link" href="#" onclick="startGame();">
+        <button type="button">New Game</button></a>
+    </Div>
+</body>
+<footer>
+    <h3>By: Nicholas Burkhart</h3>
+</footer>
+</html>
